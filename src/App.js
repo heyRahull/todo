@@ -55,10 +55,10 @@ function App() {
                 key={index}
                 className="flex mx-8 bg-white ml-8 py-2 my-2 items-center "
               >
-                <li className="w-[90%]">{todo}</li>
+                <li className="w-[85%]">{todo}</li>
                 <button
                   onClick={() => removeTodo(index)}
-                  className="w-[10%] bg-violet-500 my-2 font-bold mx-4 px-2 py-2 text-white"
+                  className="w-[15%] bg-violet-500 my-2 font-bold mx-4 px-2 py-2 text-white"
                 >
                   Remove
                 </button>
